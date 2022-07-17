@@ -6,7 +6,7 @@ import utilities.ConfigurationReader;
 
 public class LoginPage extends BasePages{
 
-    @FindBy(id = "user")
+    @FindBy(id = "user1")
     public WebElement userInput;
 
     @FindBy(id = "password")
