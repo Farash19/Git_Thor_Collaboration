@@ -13,7 +13,7 @@ public class LogoutPage extends BasePages {
     @FindBy(xpath = "//li[@data-id='logout']")
     public WebElement logoutLink;
 
-    public void logout(){
+    public void logout() throws InterruptedException {
         profileIcon.click();
         BrowserUtils.sleep(2);
         logoutLink.click();
