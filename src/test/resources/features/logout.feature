@@ -1,7 +1,6 @@
 Feature: Logout function
-  User Story: User is able to logout
 
-  @smoke
+  @wip
   Scenario: User can log out and ends up in login page
     Given the user is logged in
     When the user clicks the avatar icon
